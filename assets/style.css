@@ -49,11 +49,12 @@ body {
 }
 
 .text_title {
+  font-size: 13px;
+  font-family: Tahoma,sans-serif,Arial,Helvetica;
+  font-weight: bold;
   width: 100px;
   display: block;
   margin-top: 15px;
-  font-size: 13px;
-  font-weight: bold;
   margin-left: 10px;
   color: white;
   white-space: nowrap;
@@ -63,6 +64,7 @@ body {
 
 .members_column {
   margin-top: 17px;
+  font-family: Tahoma,sans-serif,Arial,Helvetica;
   font-size: 13px;
   color: #B9CFE3;
   margin-left: 15px;
@@ -130,11 +132,26 @@ body {
   background-color: #B9CFE3;
 }
 
+.all_chats_message div:hover .count_messag {
+  background-color: #888;
+}
+
+.icons {
+  height: 14px;
+  width: 62px;
+  background-repeat: no-repeat;
+  background-position: 0 0;
+  margin-top: 18px;
+  background-image: url(https://web.telegram.org/img/Telegram.svg);
+}
+
 .all_chats_message:hover {
   overflow-y: auto;
 }
 
 .masseg {
+  padding-top: 5px;
+  padding-bottom: 5px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -145,12 +162,16 @@ body {
 }
 
 .chat_title_active {
+  font-weight: bold;
   color: white;
-  font-size: 15px;
+  font-size: 13px;
   font-style: inherit;
+  font-family: Tahoma,sans-serif,Arial,Helvetica;
 }
 
 .messag_active {
+  padding-top: 5px;
+  padding-bottom: 5px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -162,6 +183,7 @@ body {
 }
 
 .chat_text {
+  padding-top: 10px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -174,6 +196,7 @@ body {
 }
 
 .chat_stat {
+  padding-top: 10px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -198,23 +221,28 @@ body {
 }
 
 .chat_title {
+  font-weight: bold;
   color: black;
-  font-size: 15px;
+  font-size: 13px;
   font-style: inherit;
+  font-family: Tahoma,sans-serif,Arial,Helvetica;
 }
 
 .name_messeger {
   color: blue;
   font-size: 13px;
+  font-family: Tahoma,sans-serif,Arial,Helvetica;
 }
 
 .name_messeger_active {
   color: white;
   font-size: 13px;
+  font-family: Tahoma,sans-serif,Arial,Helvetica;
 }
 
 .text_messeg {
   font-size: 13px;
+  font-family: Tahoma,sans-serif,Arial,Helvetica;
   white-space: nowrap;
   overflow: hidden;
   text-overflow: ellipsis;
@@ -223,6 +251,7 @@ body {
 .text_messeg_active {
   color: white;
   font-size: 13px;
+  font-family: Tahoma,sans-serif,Arial,Helvetica;
   white-space: nowrap;
   overflow: hidden;
   text-overflow: ellipsis;
@@ -246,7 +275,10 @@ body {
 }
 
 .input_search {
-  width: 286px;
+  padding-left: 10px;
+  padding-right: 10px;
+  font-family: Tahoma,sans-serif,Arial,Helvetica;
+  width: 266px;
   height: 33px;
   background: #F2F2F2;
   background-repeat: no-repeat;
@@ -297,24 +329,30 @@ body {
 
 .time_massege {
   font-size: 11.5px;
+  font-family: Tahoma,sans-serif,Arial,Helvetica;
 }
 
 .time_massege_active {
   color: white;
   font-size: 11.5px;
+  font-family: Tahoma,sans-serif,Arial,Helvetica;
 }
 
 .count_messag {
   height: 21px;
   width: 21px;
   border-radius: 50px 50px 50px 50px;
-  background: #888;
+  background-color: #888;
+  text-align: center;
 }
 
 .text_count_masseg {
-  margin: 5px;
+  height: 21px;
+  width: 21px;
+  margin: auto;
   color: white;
   font-size: 11px;
+  font-family: Tahoma,sans-serif,Arial,Helvetica;
 }
 
 .messages_box {
@@ -425,6 +463,7 @@ body {
   height: 15px;
   width: 36px;
   font-size: 15px;
+  font-family: Tahoma,sans-serif,Arial,Helvetica;
   margin: 10px;
 }
 
@@ -489,6 +528,7 @@ body {
 
 .name_sender {
   font-weight: bolder;
+  font-family: Tahoma,sans-serif,Arial,Helvetica;
   color: #3a6d99;
   font-size: 12px;
 }
@@ -508,12 +548,14 @@ body {
 .time_m_s {
   color: #ADADAD;
   font-size: 11px;
+  font-family: Tahoma,sans-serif,Arial,Helvetica;
   margin-right: 100px;
   margin-left: auto;
 }
 
 .text_messags {
   font-size: 13px;
+  font-family: Tahoma,sans-serif,Arial,Helvetica;
   color: #000000;
 }
 
