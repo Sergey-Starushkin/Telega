@@ -147,6 +147,7 @@ body {
 
 .all_chats_message:hover {
   overflow-y: auto;
+  margin-right: -2px;
 }
 
 .masseg {
@@ -349,7 +350,6 @@ body {
 .text_count_masseg {
   height: 21px;
   width: 21px;
-  margin: auto;
   color: white;
   font-size: 11px;
   font-family: Tahoma,sans-serif,Arial,Helvetica;
