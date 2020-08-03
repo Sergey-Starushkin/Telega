@@ -1,7 +1,13 @@
+@media (max-height: 850px) {
+  .main_view {
+    zoom: 77%;
+  }
+}
+
 body {
-  margin: 0;
+  height: 1050px;
+  margin: 0px;
   background-color: #F2F2F2;
-  overflow: hidden;
 }
 
 .main {
@@ -37,7 +43,7 @@ body {
 }
 
 .main_telegram {
-  height: 750px;
+  height: 50px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -150,6 +156,8 @@ body {
 }
 
 .masseg {
+  height: 50px;
+  width: 310px;
   padding-top: 5px;
   padding-bottom: 5px;
   display: -webkit-box;
@@ -170,6 +178,8 @@ body {
 }
 
 .messag_active {
+  height: 50px;
+  width: 310px;
   padding-top: 5px;
   padding-bottom: 5px;
   display: -webkit-box;
