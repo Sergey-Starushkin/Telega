@@ -1,0 +1,419 @@
+$sidebar_width: 200px;
+body {
+    height: 1050px;
+    margin: 0px;
+    overflow: hidden;
+    background-color: #F2F2F2;}
+.main {
+    max-width: n px;
+    width: 65%;
+    height: 100vh;
+    margin: 0 auto;
+    background-color: #ffffff;
+    display: flex;
+    flex-direction: column;
+}
+.header {
+    background-color: #5682a3;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+    & div:hover{
+        background-color: #688aa0;
+    }
+}
+
+.main_telegram {
+    height: 50px;
+    display: flex;
+    flex-direction: row;
+}
+.text_title {
+    font-size: 13px;
+    font-family:Tahoma,sans-serif,Arial,Helvetica;
+    font-weight: bold;
+    width: 100px;
+    display: block;
+    margin-top: 15px;
+    margin-left: 10px;
+    color: white; 
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+.members_column {
+    margin-top: 17px;
+    font-family:Tahoma,sans-serif,Arial,Helvetica;
+    font-size: 13px;
+    color: #B9CFE3;
+    margin-left: 15px;
+}
+.header_telegram {
+    width: 310px;
+    height: 48px;
+    display: flex;
+    flex-direction: row;
+}
+.header_chat{
+    display: flex;
+    flex-direction: row;
+    width: 490px;
+    height: 48px;
+}
+.chats {
+    display: flex;
+    flex-direction: column;;
+    width: $sidebar_width;
+    box-shadow: inset -2px 0 0 #F2F2F2;
+    width: 310px;
+    height: 95vh;
+}
+::-webkit-scrollbar {
+    width: 2px;
+}
+::-webkit-scrollbar-track {
+    background: #F2F2F2;
+}
+::-webkit-scrollbar-thumb {
+    background: #888; 
+}
+.all_chats_message {
+    display: block;
+    height: 90vh;
+    overflow-y: hidden;
+    overflow-x: hidden;
+    & div:hover{
+        .count_messag{background-color: #888;}
+        background-color: #B9CFE3;
+    }
+}
+
+.icons {
+    height: 14px;
+    width: 62px;
+    background-repeat: no-repeat;
+    background-position: 0 0;
+    margin-top: 18px;
+    background-image:url(https://web.telegram.org/img/Telegram.svg);
+}
+.all_chats_message:hover {
+    overflow-y: auto;
+    margin-right: -2px;
+}
+.masseg {
+    height: 50px;
+    width: 310px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    display: flex;
+    flex-direction: row;
+}
+.chat_title_active {
+    font-weight: bold;
+    color: white;
+    font-size: 13px;
+    font-style: inherit;
+    font-family:Tahoma,sans-serif,Arial,Helvetica;
+}
+.messag_active {
+    height: 50px;
+    width: 310px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    display: flex;
+    flex-direction: row;
+    background-color: #5682a3;
+}
+.chat_text {
+    padding-top: 10px;
+    display: flex;
+    flex-direction: column;
+    margin-left: auto;
+    margin-right: auto;
+}
+.chat_stat {
+    padding-top: 10px;
+    display: flex;
+    flex-direction: column;
+    margin-left: auto;
+    margin-right: 10px;
+}
+
+.messages {
+    width: 490px;
+    height: 80vh;
+    display: flex;
+    overflow-y: auto;
+    overflow-x: hidden;
+    flex-direction: column;
+    height: calc(100% - 127px);
+}
+.chat_title {
+    font-weight: bold;
+    color: black;
+    font-size: 13px;
+    font-style: inherit;;
+    font-family:Tahoma,sans-serif,Arial,Helvetica;
+}
+.name_messeger {
+    color: blue;
+    font-size: 13px;
+    font-family:Tahoma,sans-serif,Arial,Helvetica;
+}
+.name_messeger_active {
+    color: white;
+    font-size: 13px;
+    font-family:Tahoma,sans-serif,Arial,Helvetica;
+}
+.text_messeg {
+    font-size: 13px;
+    font-family:Tahoma,sans-serif,Arial,Helvetica;
+    white-space: nowrap;
+    overflow: hidden;
+    padding-left: 1em;
+    text-overflow: ellipsis;
+}
+.text_messeg_active {
+    color: white;
+    font-size: 13px;
+    font-family:Tahoma,sans-serif,Arial,Helvetica;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+.name_text_messeg {
+    width: 170px;
+    display: flex;
+    flex-direction: row;
+}
+.search {
+    padding: 10px;
+    width: 300px;
+    height: 50px;
+}
+
+.input_search {
+    padding-left: 10px;
+    padding-right: 10px;
+    font-family:Tahoma,sans-serif,Arial,Helvetica;
+    width: 266px;
+    height: 33px;
+     background: #F2F2F2;
+     background-repeat: no-repeat;
+     border: none;
+     outline: none;
+     font-size: 10pt;
+     float: left;
+     color: black;
+    -webkit-border-radius: 5px;
+     -moz-border-radius: 5px;
+     border-radius: 5px;
+}
+.searchview{
+    vertical-align: middle;
+    white-space: nowrap;
+    position: relative;
+}
+.search_header {
+    height: 48px;
+    width: 55px;
+
+}
+
+.dots {
+    height: 48px;
+    width: 55px;
+    // margin: 10px;
+
+}
+.burger_menu {
+    margin-top: 10px;
+    margin-left: 17px;
+    margin-right: 25px;
+}
+.image {
+    display: block;
+    margin-top: 10px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.chat_image {
+    height: 44px;
+    width: 44px;
+    margin: 5px;
+    border-radius: 100px;
+    margin-left: 12px;
+}
+.time_massege {
+    font-size: 11.5px;
+    font-family:Tahoma,sans-serif,Arial,Helvetica;
+}
+.time_massege_active {
+    color: white;
+    font-size: 11.5px;
+    font-family:Tahoma,sans-serif,Arial,Helvetica;
+}
+.count_messag{
+    height: 21px;
+    width: 21px;
+    border-radius: 50px 50px 50px 50px;
+    background-color: #888;
+    text-align: center;
+}
+.text_count_masseg {
+    
+    height: 21px;
+    width: 21px;
+    color: white;
+    font-size: 11px;
+    font-family:Tahoma,sans-serif,Arial,Helvetica;
+}
+.messages_box {
+    height: 15vh;
+    width: 60vh;
+    margin-top: auto;
+    margin-bottom: 0;
+    margin-left: 1vh;
+    margin-right: 1vh;
+    display: flex;
+    flex-direction: row;
+}
+.group_chat {
+    display: flex;
+    flex-direction: column;
+    height: 95vh;
+    width: 600px;
+}
+.send_message_image_you_photo {
+    margin-top: 10px;
+    height: 7vh;
+    width: 7vh;
+    border-radius: 100px;
+    display: block;
+    margin-left: auto;
+    margin-right: 2vh;
+}
+.send_message_image_photo_chats {
+    margin-top: 10px;
+    height: 7vh;
+    width: 7vh;
+    border-radius: 100px;
+    display: block;
+    margin-left: 0px;
+}
+.message_image {
+    width: 109px;
+}
+.input_box {
+    width: 352px;
+    display: flex;
+    flex-direction: row;
+    border: outset;
+    border-width: 0px 0px 1px 0px ;
+    border-color: cyan;
+}
+.send_message_text {
+    display: flex;
+    flex-direction: column;
+    width: 282px;
+    height: 52px;
+    border: none;
+    font-size: 11px;
+    outline: none;
+}
+.smile_and_send {
+    display: flex;
+    flex-direction: row;
+    height: 30px;
+    width: 382px;
+}
+.send_icon{
+    height: 25px;
+    width: 25px;
+    margin: 5px;
+}
+.slah_icon {
+    width: 24px;
+    height: 24px;
+    margin-right: 5px;
+}
+.button_send {
+    color: blue;
+    height: 15px;
+    width: 36px;
+    font-size: 15px;
+    font-family:Tahoma,sans-serif,Arial,Helvetica;
+    margin: 10px;  
+}
+.emo {
+    height: 20px;
+    width: 20px;
+    margin-right: 5px;
+    margin-top: 10px;
+}
+.emo1 {
+    height: 20px;
+    width: 20px;
+    margin-left: 25px;
+    margin-right: 5px;
+    margin-top: 10px;
+}
+.mess {
+    margin-left: 100px;
+    margin-right: 100px;
+    margin-top: auto;
+    margin-bottom: 0px;
+    height: 95px;
+    width: 490px;
+    display: flex;
+    flex-direction: row;
+}
+.mess_photo {
+    margin-left: 100px;
+    margin-right: 100px;
+    margin-top: auto;
+    margin-bottom: 0px;
+    height: 295px;
+    width: 490px;
+    display: flex;
+    flex-direction: row;
+}
+.input_photo {
+    height: 250px;
+    width: 200px;
+}
+.photo_sender {
+    height: 42px;
+    width: 42px;
+    border-radius: 100px;
+    display: block;
+
+}
+.name_sender {
+    font-weight: bolder;
+    font-family:Tahoma,sans-serif,Arial,Helvetica;
+    color: #3a6d99;
+    font-size: 12px;
+}
+.main_messag {
+    margin-left: 10px;
+    width: 370px;
+    display: flex;
+    flex-direction: column;;
+}
+.time_m_s {
+    color: #ADADAD;
+    font-size: 11px;
+    font-family:Tahoma,sans-serif,Arial,Helvetica;
+    margin-right: 100px;
+    margin-left: auto;
+}
+.text_messags {
+    font-size: 13px;
+    font-family:Tahoma,sans-serif,Arial,Helvetica;
+    color: #000000;
+}
+.audio {
+    border: none;
+}
