@@ -1,3 +1,15 @@
+@media (max-height: 550px) {
+  body {
+    zoom: 80%;
+  }
+  .chats {
+    zoom: 95%;
+  }
+  .input_photo {
+    zoom: 40%;
+  }
+}
+
 body {
   height: 1050px;
   margin: 0px;
@@ -7,7 +19,7 @@ body {
 
 .main {
   max-width: n px;
-  width: 65%;
+  width: 85%;
   height: 100vh;
   margin: 0 auto;
   background-color: #ffffff;
@@ -368,7 +380,7 @@ body {
   height: 15vh;
   width: 60vh;
   margin-top: auto;
-  margin-bottom: 0;
+  margin-bottom: 10px;
   margin-left: 1vh;
   margin-right: 1vh;
   display: -webkit-box;
@@ -388,7 +400,7 @@ body {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
-  height: 95vh;
+  height: 90vh;
   width: 600px;
 }
 
@@ -513,7 +525,7 @@ body {
   margin-right: 100px;
   margin-top: auto;
   margin-bottom: 0px;
-  height: 295px;
+  height: 20vh;
   width: 490px;
   display: -webkit-box;
   display: -ms-flexbox;
